@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ "$_" = "$0" ]; then
+    echo "Please source this script."
+    return
+fi
+
+if [ $# -ne 1 ]; then
+    echo "Please provide exactly one playground target."
+    return
+fi
+
+TARGET="$1"
+
+make "$TARGET"
+cd "$TARGET"
+if [ ! -z $EDITOR ]; then
+    $EDITOR script.py
+fi
+
