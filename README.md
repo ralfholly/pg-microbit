@@ -20,6 +20,13 @@ Unit tests are expected to be in the tests/ subfolder of an app. Execute your te
 Within your app folder, you can find a Python module called `microbit.py` which contains predefined mocks for the API offered by MicroPython. On the real device the module `microbit` is part of the runtime; `microbit.py` is only used for host-based mocking/unit testing.
 
 
+## Flashing
+In order to download your script to your device, run `make install`, which calls the [uflash](https://github.com/ntoll/uflash) utility to get the job done.
+
 ## Dependencies
 
+See `requirements.txt`. Install dependencies like so:
 
+```
+pip3 install --user -r requirements.txt
+```
