@@ -3,7 +3,7 @@ A Playground for BBC micro:bit [MicroPython](http://microbit-micropython.readthe
 
 
 ## Description
-This playground lets you try out BBC micro:bit/MicroPython features and programming ideas. You can easily setup a safe try-out area in which you develop and unit test your app. It is based on the idea described in [this blog post](https://www.approxion.com/?p=97).
+This playground lets you try out BBC micro:bit/MicroPython features and programming ideas. You can easily setup a safe try-out area in which you develop and unit test your app. It is based on the idea described in [this blog post](https://www.approxion.com/?p=2784).
 
 
 ## Usage
