@@ -9,7 +9,7 @@ This playground lets you try out BBC micro:bit/MicroPython features and programm
 ## Usage
 Enter the directory of the cloned repository and start a new topic:
 ```
-cd ~/pg-cpp
+cd ~/pg-microbit
 . pg-setup step_counter
 ```
 This will create a directory named `step_counter` that is equipped with a Makefile and a Python source code file named `script.py`. If you have defined the `EDITOR` environment variable, `script.py` will be opened in your favorite editor. Type `make install` to download your app to the BBC micro:bit device.
